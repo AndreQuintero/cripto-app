@@ -3,6 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "jsx": "react",
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true
   }
 }
