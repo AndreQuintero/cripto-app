@@ -1,4 +1,4 @@
 export type RootStackParamList = {
-    Coins: undefined;
-    Exchanges: undefined;
-  };
+  Coins: undefined
+  Exchanges: undefined
+}
