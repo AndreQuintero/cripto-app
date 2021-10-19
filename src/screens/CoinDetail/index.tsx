@@ -1,8 +1,5 @@
 import React from 'react'
-import {
-  RootStackParamList,
-  CoinModuleParamList
-} from 'config/routes-type.config'
+import { CoinModuleParamList } from 'config/routes-type.config'
 import * as S from './style'
 import { Button } from '@ui-kitten/components'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'

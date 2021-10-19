@@ -1,15 +1,16 @@
-import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import React from 'react'
-import { RootStackParamList } from 'config/routes-type.config'
+import { CoinModuleParamList } from 'config/routes-type.config'
 import * as S from './style'
 import { Button } from '@ui-kitten/components'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Coins'>
+type Props = NativeStackScreenProps<CoinModuleParamList, 'CriptoCoins'>
 
 const Coins = ({ navigation }: Props) => {
   return (
     <S.View>
-      <Button onPress={() => navigation.navigate('Exchanges')}>Navegar</Button>
+      <S.Text>Coins</S.Text>
+      <Button onPress={() => navigation.navigate('CoinDetail')}>Navegar</Button>
     </S.View>
   )
 }
