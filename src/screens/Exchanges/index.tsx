@@ -1,10 +1,10 @@
-import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { DrawerScreenProps } from '@react-navigation/drawer'
 import { Button } from '@ui-kitten/components'
 import React from 'react'
 import { RootStackParamList } from 'config/routes-type.config'
 import * as S from './style'
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Exchanges'>
+type Props = DrawerScreenProps<RootStackParamList, 'Exchanges'>
 
 const Exchanges = ({ navigation }: Props) => {
   return (
